@@ -1,0 +1,53 @@
+---
+title: "R Workshop Day 2: R Notebooks and Markdown"
+author: "Mike Burnham"
+date: "`r format(Sys.time(), '%d %B, %Y')`" # How would we change the format of the date?
+output: html_notebook 
+#output: pdf_document
+# Add things like index Code folding to the preamble
+---
+R notebooks are handy for producing HTML and PDF documents. I recommend using them for your homework assignments in the methods courses. R notebooks are wrtten in R markdown and chunks of R code. R Markdown is a version of Markdown, a commonly used markup language used for creating formatted documents.
+
+# Section headers
+## Level 2 headers
+### Level 3 headers
+#### Level 4 headers
+##### Level 5 headers
+###### Level 6 headers
+
+**Bold text**
+
+*Italics*
+
+$Math Mode$
+
+$y = 5x + 3$
+
+## Hot Keys
+A few simple hotkeys will go a long way in helping you keep your hands on the keyboard and working faster.
+
+- **Run a line of code**: *Ctrl + Enter*
+- **Run a block of code**: *Ctrl+Shift+Enter*
+- **Save script/notebook**: **Ctrl+S**
+- **Move cursor to the beginning of the line**: *Home*
+- **Move cursor to the end of the line**: *End*
+- **preview document**: *Ctrl+Shift+K*
+- **Create a new code chunk**: *Ctrl+Alt+I*
+
+```{r}
+print('hello world')
+plot(cars)
+```
+
+
+```{r fig.height=5, fig.width=5, message=TRUE, warning=TRUE, paged.print=FALSE}
+plot(cars)
+```
+
+
+```{r, echo=FALSE, results='hide', fig.keep='all'}
+print("I'm hidden!")
+
+sum(cars$speed)
+```
+

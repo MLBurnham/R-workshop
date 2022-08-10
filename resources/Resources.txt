@@ -1,0 +1,9 @@
+Ceat sheets: https://www.rstudio.com/resources/cheatsheets/
+
+RStudio Keyboard Shortcuts: https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts
+
+Hands-on Programming with R: https://rstudio-education.github.io/hopr/index.html
+
+R for Data Science textbook: https://r4ds.had.co.nz/
+
+Swirl, an R package that teaches you R: https://swirlstats.com/ 
