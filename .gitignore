@@ -49,6 +49,5 @@ po/*~
 rsconnect/
 
 Workshop outline.pptx
-/completed_notebooks/
 *.nb
 *.pptx
